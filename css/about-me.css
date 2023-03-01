@@ -1,0 +1,77 @@
+caption {
+    font-size: 20px;
+    padding: 6px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-family: cursive;
+
+}
+
+td {
+
+    border: 2px dashed rgb(222, 231, 209);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+tr:hover {
+    font-family: cursive;
+    width: 90px;
+    animation-name: animation;
+    animation-duration: 1s;
+
+}
+
+img:hover {
+    opacity: 0.5;
+    transform: rotate(3deg);
+}
+
+@keyframes animation {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.2;
+        border: 5px dashed rgb(250, 245, 245);
+    }
+
+}
+
+#about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+
+#work-demo img {
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width:70%;
+    height: 12%;
+    align-items: center;
+    border: 2px solid rgb(248, 247, 247);
+    border-radius: 40px;
+    animation-name: animation;
+    animation-duration: 1s;
+
+}
+
+#work-table {
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 14%;
+
+}
