@@ -16,7 +16,7 @@ function greetUser(userName , greetFun)
     const returnGreetText = greetFun();
 
     // Using the returned value of greet() fun inside the another function i.e. greetUser()
-    console.warn(`${returnGreetText}` , userName) ; 
+    console.log(`${returnGreetText}` , userName) ; 
 }
 
 greetUser("raushan" , greet) ; 
