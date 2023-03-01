@@ -1,1 +1,2 @@
-# frontend-dev-raushan
+# Portfolio Assignment 
+- Technology Used: HTML, CSS
