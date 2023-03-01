@@ -1,1 +1,1 @@
-# frontend-dev-raushan
+# Solution of all JavaScript Assignments.
