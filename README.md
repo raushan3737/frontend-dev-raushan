@@ -1,2 +1,3 @@
-# Portfolio Assignment 
-- Technology Used: HTML, CSS
+# Solution of all JavaScript Assignments.
+
+

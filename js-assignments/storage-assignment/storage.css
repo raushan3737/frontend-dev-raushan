@@ -1,0 +1,48 @@
+/* CSS of storage.html */
+
+/* Universal Selector */
+* {
+    background-image: url("https://images.alphacoders.com/102/thumb-1920-1026345.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: cursive;
+
+}
+
+/* Element selector Start */
+
+span {
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: larger;
+
+}
+
+/* Element selector End*/
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.btn {
+    background-color: rgb(12, 12, 13);
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: white;
+    cursor: pointer;
+    width: 100px;
+
+}
