@@ -32,7 +32,7 @@ incBtn.addEventListener("click", () => {
   document.getElementById("sessionScoreTxt").textContent = sessionText;
 });
 
-// Decrementing the storage
+// Decrementing the storage on the button click
 decBtn.addEventListener("click", () => {
   // If local & session score exist then, Decrement by 1 because, Negative score doesn't sense
   if (localText) {
