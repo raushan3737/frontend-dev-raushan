@@ -1,2 +1,1 @@
-# Portfolio Assignment 
-- Technology Used: HTML, CSS
+# Submit a one page brief with your observations from HTML & CSS Module
