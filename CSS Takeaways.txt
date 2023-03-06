@@ -1,0 +1,74 @@
+CSS Takeaways 
+
+CSS (Cascading Style Sheets) is the language we use to style an HTML document. It describes 
+how HTML elements should be displayed.
+
+There are three ways to add CSS to the HTML: 1. Internal CSS 2. External CSS 3. Inline CSS
+
+Priority Order: Inline CSS > Internal/External > Browser default 
+
+CSS Syntax: selector {property-name: value;}
+
+CSS Selectors: Are used to "find" (or select) the HTML elements you want to style.
+
+There are four types of Selectors: 1. Universal Selector 2. Class Selector 3. Id Selector 4. Element Selector
+
+CSS Styles: 
+
+Margins: Used to create space around elements, outside of any defined borders.
+Syntax: margin: top right bottom left
+
+Padding: Used to create space around an element's content, inside of any defined borders.
+Syntax: padding: top right bottom left 
+
+Position: property specifies the type of positioning method used for an element (static, 
+relative, fixed, absolute or sticky).
+
+Colors: RBG(), RGBA(RED,GREEN,BLUE,ALPHA) , HEX(), HSLA()
+
+Background: Syntax: background-color, : background-img, background-size, backgroundattachment, background-position, background-visibility etc.
+
+Borders: border: width style color , border-radius, border-spacing etc.
+
+Opacity: specifies the opacity/transparency of an element. Opacity ranges 0 to 1.
+
+Display: property specifies if/how an element is displayed.
+Syntax: display: inline | block | flex | none
+
+Font: Syntax: font-style, font-family, font-weight etc.
+
+Overflow: specifies whether to clip the content or to add scrollbars when the content of an 
+element is too big to fit in the specified area. Syntax: overflow: visible | hidden | scroll | auto
+
+Note: The overflow property only works for block elements with a specified height.
+
+Flexbox: is a one-dimensional layout system that we can use to create a row or a column 
+axis layout.
+Properties: display: flex; flex-direction: row | column ; flex-wrap: wrap ; flex-grow: 0 | 1 ; 
+justify-content: centre | flex-start | flex-end ;
+
+CSS Transitions
+CSS transitions allows you to change property values smoothly, over a given duration.
+Property: 
+transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function
+
+
+2D Transforms
+CSS transforms allow you to move, rotate, scale, and skew elements.
+Property: translate() , rotate(), scaleX(), scaleY(), scale(), skewX(), skewY(), skew(), matrix()
+
+Grid Container
+To make an HTML element behave as a grid container, you have to set the display property to grid or inline-grid.
+
+Grid containers consist of grid items, placed inside columns and rows.
+
+The grid-template-columns Property
+The grid-template-columns property defines the number of columns in your grid layout, and it can define the width of each column.
+
+The value is a space-separated-list, where each value defines the width of the respective column.
+
+If you want your grid layout to contain 4 columns, specify the width of the 4 columns, or "auto" if all columns should have the same width.
