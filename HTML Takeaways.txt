@@ -1,0 +1,48 @@
+                                     HTML
+• HTML is the standard markup language for creating Web pages it describes the 
+structure of a Web page.
+• HTML Element: An HTML element is defined by a start tag, some content, and an 
+end tag: <tagname> Content goes here... </tagname>
+• HTML ELEMENTS:
+• <title>Document</title>
+• <h1> </h1> … <h6> </h6>
+• <p></p>
+• <b>, <em> <i>, <small>, <strong>, <sub>, <sup> 
+• <abbr title="">
+• <a href="" target="" title="">link text</a>
+• Bookmark: <h2 id="C4">Chapter 4</h2> , <a href="#C4"></a>
+• <img src="" alt=" " style="">
+• <picture>
+• <source media="(min-width: 650px)" srcset=" ">
+• <source media="(min-width: 465px)" srcset=" ">
+• <img src="">
+• </picture>
+• <link rel="icon" type="image/x-icon"
+href="/images/favicon.ico">
+• Tables: allow web developers to arrange data into rows and 
+columns.
+• <table>
+• <caption>Caption</caption>
+• <colgroup>
+• <col span="2" style="">
+• <col style="">
+• </colgroup>
+• <tr> <th style="width:50%" >ISBN</th> </tr>
+• <tr> <td></td> </tr>
+• </table>
+• list: lists allow to group a set of related items inlists.
+• <ul>, <ol> ,<li>, <dl>,<dt>,<dd> 
+• Description List: <dl> <dt>Title</dt> <dd>Desc</dd></dl>
+• <iframe src=" " title="Iframe Example"></iframe>
+• <video autoplay muted controls> <source src=" " type=" 
+"></video>
+• <audio controls autoplay muted> <source src="" type="">
+</audio>
+• <form action="index.html" method="">
+<input type="text" placeholder="Enter your name">
+• <button type="submit">Submit</button>
+• </form>
+• Semantic Elements: clearly describes its meaning to both the 
+browser and the developer. Example: <header>, <nav> , 
+<section> , <article>, <aside >, <footer> , < details> , 
+<summary> etc
